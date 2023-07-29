@@ -28,7 +28,7 @@ export function SoftwareAndSkill()
                 trailColor={"#454545"}
                 strokeWidth={13}
                 size={90}
-                strokeColor={"#00da64"}
+                strokeColor={"var(--greenColor)"}
                 type="circle"
                 percent={90}
                 style={{ color: "red" }}
@@ -41,7 +41,7 @@ export function SoftwareAndSkill()
                 trailColor={"#454545"}
                 strokeWidth={13}
                 size={90}
-                strokeColor={"#00da64"}
+                strokeColor={"var(--greenColor)"}
                 type="circle"
                 percent={75}
                 style={{ color: "red" }}
@@ -57,7 +57,7 @@ export function SoftwareAndSkill()
                 trailColor={"#454545"}
                 strokeWidth={13}
                 size={90}
-                strokeColor={"#00da64"}
+                strokeColor={"var(--greenColor)"}
                 type="circle"
                 percent={80}
                 style={{ color: "red" }}
@@ -70,7 +70,7 @@ export function SoftwareAndSkill()
                 trailColor={"#454545"}
                 strokeWidth={13}
                 size={90}
-                strokeColor={"#00da64"}
+                strokeColor={"var(--greenColor)"}
                 type="circle"
                 percent={50}
                 style={{ color: "red" }}
@@ -86,26 +86,26 @@ export function SoftwareAndSkill()
                 trailColor={"#454545"}
                 strokeWidth={13}
                 size={90}
-                strokeColor={"#00da64"}
+                strokeColor={"var(--greenColor)"}
                 type="circle"
                 percent={80}
                 style={{ color: "red" }}
                 colorText={"white"}
               />
-              <h3>Flutter / Dart</h3>
+              <h3>JavaScript</h3>
             </Col>
             <Col className="pro">
               <Progress
                 trailColor={"#454545"}
                 strokeWidth={13}
                 size={90}
-                strokeColor={"#00da64"}
+                strokeColor={"var(--greenColor)"}
                 type="circle"
-                percent={50}
+                percent={60}
                 style={{ color: "red" }}
                 colorText={"white"}
               />
-              <h3>C# / .Net</h3>
+              <h3>Java</h3>
             </Col>
           </Row>
         </Col>
@@ -123,7 +123,7 @@ export function SoftwareAndSkill()
             <h3 className="softwareName">MS OFFICE</h3>
             <Progress
               percent={90}
-              strokeColor={"#00da64"}
+              strokeColor={"var(--greenColor)"}
               trailColor={"#454545"}
             />
           </Col>
@@ -131,7 +131,7 @@ export function SoftwareAndSkill()
             <h3 className="softwareName">PHOTOSHOP</h3>
             <Progress
               percent={70}
-              strokeColor={"#00da64"}
+              strokeColor={"var(--greenColor)"}
               trailColor={"#454545"}
             />
           </Col>
@@ -139,7 +139,7 @@ export function SoftwareAndSkill()
             <h3 className="softwareName">COREL DRAW</h3>
             <Progress
               percent={90}
-              strokeColor={"#00da64"}
+              strokeColor={"var(--greenColor)"}
               trailColor={"#454545"}
             />
           </Col>
@@ -147,7 +147,7 @@ export function SoftwareAndSkill()
             <h3 className="softwareName">ILLUSTRATOR</h3>
             <Progress
               percent={75}
-              strokeColor={"#00da64"}
+              strokeColor={"var(--greenColor)"}
               trailColor={"#454545"}
             />
           </Col>
@@ -155,7 +155,7 @@ export function SoftwareAndSkill()
             <h3 className="softwareName">CANVA</h3>
             <Progress
               percent={99}
-              strokeColor={"#00da64"}
+              strokeColor={"var(--greenColor)"}
               trailColor={"#454545"}
             />
           </Col>
@@ -163,7 +163,7 @@ export function SoftwareAndSkill()
             <h3 className="softwareName">FIGMA</h3>
             <Progress
               percent={80}
-              strokeColor={"#00da64"}
+              strokeColor={"var(--greenColor)"}
               trailColor={"#454545"}
             />
           </Col>
@@ -171,7 +171,7 @@ export function SoftwareAndSkill()
             <h3 className="softwareName">BLENDER</h3>
             <Progress
               percent={50}
-              strokeColor={"#00da64"}
+              strokeColor={"var(--greenColor)"}
               trailColor={"#454545"}
             />
           </Col>

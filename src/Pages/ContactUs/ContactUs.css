@@ -1,0 +1,22 @@
+.InputField{
+    width: 100%;
+    background-color: var(--bgColor);
+    border: none;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+  font-family: "Inconsolata", monospace !important;
+
+}
+.messageFrild{
+    width: 100%;
+    background-color: var(--bgColor);
+    border: none;
+    color: white !important;
+    font-size: 18px;
+  font-family: "Inconsolata", monospace !important;
+}
+
+Input{
+    color: white !important;
+}

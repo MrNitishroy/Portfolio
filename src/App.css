@@ -8,6 +8,9 @@
   --divColor: #22232e;
   --borderColor: #42455e;
 }
+.orangeTheme{
+  --greenColor: #FF9900;
+}
 * {
   font-family: "Inconsolata", monospace;
 }

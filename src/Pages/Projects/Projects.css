@@ -1,0 +1,49 @@
+.projectBox{
+    /* background-color: aliceblue; */
+    /* height: 300px; */
+    border-radius: 10px;
+}
+
+.coverImg{
+    object-fit: cover;
+    border-radius: 10px;
+    transition:  0.5s scale;
+}
+
+.projectTitle{
+    color: var(--lableColor);
+    transition: 1s color;
+}
+
+
+
+.projectBox:hover{
+    .projectTitle{
+        color: var(--greenColor);
+    }
+    .coverImg{
+        scale: 1.01;
+    }
+}
+
+.ant-modal-title{
+    font-size: 18px !important;
+    font-weight: 600;
+
+}
+
+body > div:nth-child(3) > div > div.ant-modal-wrap.ant-modal-centered > div > div.ant-modal-content > div.ant-modal-footer > button.ant-btn.css-dev-only-do-not-override-1jr9qlj.ant-btn-default{
+    display: none !important;
+}
+
+body > div:nth-child(3) > div > div.ant-modal-wrap.ant-modal-centered > div > div.ant-modal-content > div.ant-modal-footer > button.ant-btn.css-dev-only-do-not-override-1jr9qlj.ant-btn-primary{
+    display: none !important;
+}
+
+.ant-modal-content {
+    background-color: var(--divColor) !important;
+}
+.ant-modal-title{
+    background-color: var(--divColor) !important;
+    color: var(--fontColor) !important;
+}

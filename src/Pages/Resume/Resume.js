@@ -170,7 +170,7 @@ export function Resume() {
       </Row>
       <br />
       <br />
-      <br />
+      <br /> 
     </>
   );
 }

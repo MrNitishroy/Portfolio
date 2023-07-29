@@ -120,7 +120,7 @@ export function LeftSide() {
       </Row>
 
       <Row className="bottomBtn" justify={"space-between"}>
-        <Button className="btn">
+        <Button className="btn" href="https://drive.google.com/file/d/16GzkmZuQNnDkJ9xfCInjAk9y0OYoekma/view" target="_blank" >
           Download CV <CloudDownloadOutlined />
         </Button>
         <Button className="btn">
